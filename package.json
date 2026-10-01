@@ -1,0 +1,14 @@
+{
+  "name": "multi-agent-communication-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-Agent Communication Framework (Centralized, Sequential Pipeline, Blackboard)",
+  "scripts": {
+    "dev:centralized": "npm --prefix Centralized-Architecture run dev",
+    "dev:sequential": "npm --prefix Sequential-Pipeline-Architecture run dev",
+    "dev:blackboard": "npm --prefix Blackboard-Shared-State-Architecture run dev",
+    "build:centralized": "npm --prefix Centralized-Architecture run build",
+    "build:sequential": "npm --prefix Sequential-Pipeline-Architecture run build",
+    "build:blackboard": "npm --prefix Blackboard-Shared-State-Architecture run build"
+  }
+}

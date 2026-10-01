@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "1. Centralized Architecture (Port 3001)",
+            "url": "http://localhost:3001",
+            "webRoot": "${workspaceFolder}/Centralized-Architecture"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "2. Sequential Pipeline (Port 3002)",
+            "url": "http://localhost:3002",
+            "webRoot": "${workspaceFolder}/Sequential-Pipeline-Architecture"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "3. Blackboard Architecture (Port 3003)",
+            "url": "http://localhost:3003",
+            "webRoot": "${workspaceFolder}/Blackboard-Shared-State-Architecture"
+        }
+    ]
+}
